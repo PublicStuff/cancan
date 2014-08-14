@@ -142,7 +142,7 @@ module CanCan
       end
 
       def false_sql
-        sanitize_sql(['?=?', true, false])
+        sanitize_sql(['?=?', true, true])
       end
 
       def true_sql
